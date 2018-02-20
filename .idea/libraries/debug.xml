@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="debug">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_8ea7fb497e00af331af9cfc68bc90f8fc07b8d7d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_796fe94bc4e91a3df10be88da4a34bace0a3248a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_02ff416833e2a22e8353d35fa1bee535359d3deb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_ad8ffa6fd0d20e621658c9c90aeb229d4a240271.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_bca0522d6eba69de666a05ef5eee0e1bf0ba6f29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_e7d6166930f642259d45c4ce5fe90d03db1b35d7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_efcc6bec8c5451047965da88c15f2040cf8124e4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/debug_da97f8501ad1ca96a3425a1a9829f2b6b63cb925.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_2815c31b1c3f11646c45bfdc6cbe0010b77d7f7e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_74473f6d39d01f1d2b0091d650785ec335681446.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_a2c45e86a0c35061abbcda3425e47afce3a68255.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_752c26ddcb3dbc31e085f2c83bb52decb764a378.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LunchLineSimulator2/app/build/intermediates/pre-dexed/debug/classes_9bc256a60a725d1daf01de3e5916d6b8eeb58dce.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LunchLineSimulator</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="check_equality">Check Equality</string>
+    <string name="switch_reality">Switch Reality</string>
+    <string name="serve_student">Serve Student</string>
+    <string name="update_lunch_money">Update Lunch Money</string>
+    <string name="bully">Bully</string>
+    <string name="trade_place">Trade Place</string>
+    <string name="cut_student">Cut Student</string>
+    <string name="add_student">Add Student</string>
+    <string name="help">Help</string>
+    <string name="Welcome">Welcome to the Middle School where you are the master of the lunch line, and you may subject your angsty kids to whatever form of culinary torture best fits your mood.</string>
+    <string name="student_information">Student Information</string>
+    <string name="money_amount">Money Amount</string>
+    <string name="student_name">Student Name</string>
+    <string name="deanEx">You tried to add a student to a full lunch line. Dean Mean has picked up the student and given them a healthy dose of detention. Therefore, they will not be added to the lunch line.</string>
+    <string name="invalidArgEx">Invalid input</string>
+    <string name="emptyFields">Please fill any empty fields</string>
+    <string name="add_studentTitle">Add Student</string>
+    <string name="cutStudetnTitle">Cut Student</string>
+    <string name="position">Position</string>
+    <string name="trade_students_position">Trade Students Position</string>
+    <string name="trade_placeTitle">Trade Place</string>
+</resources>

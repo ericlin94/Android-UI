@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ericlin94.lunchlinesimulator.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/duplicateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/duplicate"
+        android:layout_alignRight="@+id/cutStudentButton"
+        android:layout_alignEnd="@+id/cutStudentButton" />
+
+    <Button
+        android:id="@+id/checkEqualityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/duplicateButton"
+        android:text="@string/check_equality"
+        android:layout_alignRight="@+id/switchRealityButton"
+        android:layout_alignEnd="@+id/switchRealityButton" />
+
+    <Button
+        android:id="@+id/switchRealityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkEqualityButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/switch_reality"
+        android:layout_alignRight="@+id/serveStudentButton"
+        android:layout_alignEnd="@+id/serveStudentButton" />
+
+    <Button
+        android:id="@+id/serveStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/serve_student"
+        android:layout_above="@+id/switchRealityButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/upDateLunchMoneyButton"
+        android:layout_alignEnd="@+id/upDateLunchMoneyButton" />
+
+    <Button
+        android:id="@+id/upDateLunchMoneyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/serveStudentButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/update_lunch_money"
+        android:onClick="updateLunchMoneyButton"
+        android:layout_alignRight="@+id/bullyButton"
+        android:layout_alignEnd="@+id/bullyButton" />
+
+    <Button
+        android:id="@+id/bullyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/upDateLunchMoneyButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/bully"
+        android:onClick="bullyButton"
+        android:layout_alignRight="@+id/tradePlaceButton"
+        android:layout_alignEnd="@+id/tradePlaceButton" />
+
+    <Button
+        android:id="@+id/tradePlaceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bullyButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/trade_place"
+        android:onClick="tradePlaceButton"
+        android:layout_alignRight="@+id/addStudentButton"
+        android:layout_alignEnd="@+id/addStudentButton" />
+
+    <Button
+        android:id="@+id/cutStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cut_student"
+        android:onClick="cutStudentButton"
+        android:layout_above="@+id/tradePlaceButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/addStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_student"
+        android:onClick="addStudentButton"
+        android:layout_above="@+id/cutStudentButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addStudentButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/help"
+        android:onClick="showHelp"
+        android:layout_alignRight="@+id/addStudentButton"
+        android:layout_alignEnd="@+id/addStudentButton" />
+
+    <ListView
+        android:id="@+id/realityNow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/helpButton"
+        android:layout_toRightOf="@+id/checkEqualityButton" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Welcome"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/realityNowPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/helpButton"
+        android:layout_toEndOf="@+id/helpButton"
+        android:layout_toRightOf="@+id/helpButton"
+        android:text="TextView"
+        android:textSize="40dp" />
+
+</android.widget.RelativeLayout>
