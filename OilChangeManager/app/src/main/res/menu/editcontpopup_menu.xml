@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Add to End" />
+    <item android:title="Cursor Forward" />
+    <item android:title="Cursor to Head" />
+    <item android:title="Cursor to Tail" />
+    <item android:title="Cursor Backward" />
+    <item android:title="Insert before Cursor" />
+    <item android:title="Cut at Cursor" />
+    <item android:title="Paste before Cursor" />
+    <item android:title="Remove cursor" />
+</menu>

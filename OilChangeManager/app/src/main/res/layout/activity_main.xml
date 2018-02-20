@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ericlin94.oilchangemanager.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Welcome to Tony's Discount Oil Change Computer Management System! It's way better than a rolodex, cork board, post-its, and pre-chewed bubblegum!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/editJobList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/intro"
+        android:text="Edit Job List"
+        android:onClick="editJobListButton"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/pasteToFinished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/printList"
+        android:layout_toEndOf="@+id/mergeList"
+        android:layout_toRightOf="@+id/mergeList"
+        android:text="Paste To Finished"
+        android:onClick="pasteToFinished"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/mergeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editJobList"
+        android:layout_alignBottom="@+id/editJobList"
+        android:layout_toEndOf="@+id/editJobList"
+        android:layout_toRightOf="@+id/editJobList"
+        android:text="Merge List"
+        android:onClick="mergeList"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro"
+        android:layout_toEndOf="@+id/pasteToFinished"
+        android:layout_toRightOf="@+id/pasteToFinished"
+        android:text="Sort"
+        android:onClick="sort"
+        android:textSize="12sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editJobList"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/printList" />
+
+</android.widget.RelativeLayout>
+
